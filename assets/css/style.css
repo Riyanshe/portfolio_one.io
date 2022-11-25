@@ -429,6 +429,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  /* background: url('img/image2.jpeg') no-repeat center; */
+  background: url(lg\ \(1\).jpg) no-repeat center;
   width: 100%;
   height: 100vh;
   background-color: rgb(209, 199, 199);
@@ -436,7 +438,7 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 70px;
+  padding-top: 40px;
   position: relative;
 }
 
@@ -1310,4 +1312,91 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+}
+
+
+
+
+
+/* Yash Mangal Changes this css */
+
+
+
+.owner-pic{
+  margin: auto;
+  margin-top: 105px;
+  width: 129px;
+  height: 129px;
+  border-radius: 200px;
+  border-top: 4px solid transparent;
+  border-left: 4px solid rgb(52,183,167);
+  border-right: 4px solid rgb(239, 243, 243);
+  border-bottom: 4px solid transparent;
+  padding: 2px;
+  transition: 1s;
+  animation: pic-rotate infinite 3.5s;
+  /* transform: rotate(90deg); */
+  /* border-radius: 100%; */
+  /* border: 34px red solid; */
+}
+@keyframes pic-rotate {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+.owner-pic img{
+  transition: 1s;
+  width: 100%;
+  height: 100%;
+  /* clip-path: circle(); */
+  border-radius: 100%;
+  animation: pic-rotate-anti infinite 3.5s;
+  /* transform: rotate(-90deg); */
+  /* border: 4px #ed143db3 solid; */
+  box-shadow: 0px 0px 6px 1px white;
+  /* box-sizing: 8px; */
+}
+
+@keyframes pic-rotate-anti {
+  0%{
+      transform: rotate(360deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
+}
+.owner-pic:hover{
+  transition: 1s;
+  border-top: 5px solid rgb(49, 184, 166);
+  border-bottom: 5px solid rgb(0 129 115);
+  border-left: 5px solid rgb(34, 183, 165);
+  border-right: 5px solid rgb(0, 156, 141);
+  /* transform: rotate(90deg); */
+}
+
+.about .row .col-lg-4:hover{
+
+  transform: scale(1.02);
+  transition-duration: 1s;
+
+}
+
+.about .row .col-lg-4 img{
+  box-shadow: -2px 2px 11px 1px #245c6a;
+  padding: 6px;
+  /* box-shadow: inset black; */
+}
+.about .row .col-lg-4{
+}
+.about .row .col-lg-4 .me{
+
+}
+.about .col-lg-6 a{
+  color: rgb(111,111,111);
+}
+.about .col-lg-6 a:hover{
+  color: RGB(52, 183, 167);
 }
