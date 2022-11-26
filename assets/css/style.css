@@ -430,7 +430,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   /* background: url('img/image2.jpeg') no-repeat center; */
-  background: url(lg\ \(1\).jpg) no-repeat center;
+  /* background: url(4230709.jpg) no-repeat center ; */
+  /* background-position: bottom; */
   width: 100%;
   height: 100vh;
   background-color: rgb(209, 199, 199);
@@ -454,10 +455,12 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #222222;
+  /* color: rgb(176 97 55); */
 }
 
 #hero h2 {
   color: #6f6f6f;
+  /* color: rgb(55 148 184); */
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -1390,6 +1393,7 @@ section {
   /* box-shadow: inset black; */
 }
 .about .row .col-lg-4{
+  padding: 16px;
 }
 .about .row .col-lg-4 .me{
 
